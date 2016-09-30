@@ -54,7 +54,7 @@ module.exports = {
     var origConcatFiles = app.concatFiles;
     app.concatFiles = function (tree, options) {
       var args = Array(arguments.length);
-      for (args, i = 0; i < arguments.length; i++) args[i] = arguments[i];
+      for (var i = 0; i < arguments.length; i++) args[i] = arguments[i];
       var tree = args[0];
       var options = args[1];
       args[0] = wrapConcatInput(app, tree, options);
