@@ -47,7 +47,8 @@
   "dependencies": {
     "acorn": "^4.0.3",
     "broccoli-persistent-filter": "^1.2.11",
-    "estree-walker": "^0.3.0"
+    "estree-walker": "^0.3.0",
+    "heimdalljs-logger": "^0.1.7"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
