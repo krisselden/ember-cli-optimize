@@ -46,6 +46,7 @@
   ],
   "dependencies": {
     "acorn": "^4.0.3",
+    "array-binsearch": "^1.0.0",
     "broccoli-persistent-filter": "^1.2.11",
     "estree-walker": "^0.3.0",
     "heimdalljs-logger": "^0.1.7"
