@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://github.com/krisselden/ember-cli-optimize",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Kris Selden",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
