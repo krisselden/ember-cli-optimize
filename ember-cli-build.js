@@ -138,6 +138,9 @@ module.exports = function(defaults) {
         'ember-resolver/utils/create':true,
         'ember-resolver/utils/make-dictionary':true,
         'ember-resolver/utils/module-registry':true
+      },
+      parseOptions: {
+        ecmaVersion: 8
       }
     }
   });
