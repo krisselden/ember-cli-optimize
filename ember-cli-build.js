@@ -140,7 +140,7 @@ module.exports = function(defaults) {
         'ember-resolver/utils/module-registry':true
       },
       parseOptions: {
-        ecmaVersion: 8
+        ecmaVersion: 2017
       }
     }
   });
